@@ -1,0 +1,45 @@
+/* common shred styles */
+body{
+font-family: 'Open Sans', sans-serif;
+
+}
+.text-primary{
+    color: rgb(253, 110, 10);
+}
+.btn-primary{
+    border-radius: 5px;
+    background-color: rgb(253, 110, 10);
+    border: 0;
+    font-weight: 700;
+    line-height: 27px;
+    color: white;
+    padding: 16px 35px;
+    
+    
+    
+}
+
+/* nav releted styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+    color: rgb(24, 24, 24);
+   
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: Dark 02;
+}
