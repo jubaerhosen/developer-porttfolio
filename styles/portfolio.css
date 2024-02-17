@@ -24,6 +24,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 220px;
+    margin-right: 230px;
 }
 .nav-title{
     font-size: 45px;
@@ -34,6 +36,7 @@ nav{
 nav > ul{
     display: flex;
     align-items: center;
+    
 }
 nav li {
     list-style: none;
@@ -42,4 +45,77 @@ nav li {
 nav a {
     text-decoration: none;
     color: Dark 02;
+}
+.header{
+    background-color:  rgb(255, 248, 243);;
+}
+/* banner releted syles */
+.banner{
+    padding: 50px 30px 0px 220px;
+    display: flex;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    justify-content: space-around;
+}
+.banner-sub-title{
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(71, 71, 71);
+
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    color: rgb(24, 24, 24);
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+    margin-bottom: 30px;
+}
+
+/* main releted styles */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* about releted styles */
+.about{
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    margin-top: 130px ;
+}
+.about-title{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 130px;
+ 
+}
+.about-description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding: 30px 150px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 130px;
+}
+.about-info{
+    text-align: center;
+}
+.about-info-title{
+
+}
+.info-description{
+
 }
